@@ -61,10 +61,7 @@ package easy.array;
 //
 // Related Topics 数组 双指针
 // 👍 784 👎 0
-public class removeElement27 {
-    public static void main(String[] args) {
-
-    }
+public class RemoveElement27 {
     //第一版
     public static int removeElement1(int[] nums, int val) {
         int last = nums.length;
