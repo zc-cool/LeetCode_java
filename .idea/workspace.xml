@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed13aa78-1960-4395-af13-37de540ed895" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/easy/array/removeElement27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/array/RemoveElement27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/string/CompressString0106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/string/CompressString0106.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project1" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CompressString0106">
+  <component name="RunManager" selected="Application.HJ26">
     <configuration name="CompressString0106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.string.CompressString0106" />
       <module name="LeetCode_java" />
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DpRob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.dp.DpRob" />
+    <configuration name="HJ26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niukehuawei.HJ26" />
       <module name="LeetCode_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.dp.*" />
+          <option name="PATTERN" value="niukehuawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.array.MaxSubArray53" />
+    <configuration name="HJ8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niukehuawei.HJ8" />
       <module name="LeetCode_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.array.*" />
+          <option name="PATTERN" value="niukehuawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.array.Merge88" />
+    <configuration name="IsPalindrome125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.string.IsPalindrome125" />
       <module name="LeetCode_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.array.*" />
+          <option name="PATTERN" value="easy.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.dfs.RangeChar" />
+    <configuration name="ReverseString541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.string.ReverseString541" />
       <module name="LeetCode_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.dfs.*" />
+          <option name="PATTERN" value="easy.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HJ26" />
+        <item itemvalue="Application.HJ8" />
+        <item itemvalue="Application.ReverseString541" />
+        <item itemvalue="Application.IsPalindrome125" />
         <item itemvalue="Application.CompressString0106" />
-        <item itemvalue="Application.Merge88" />
-        <item itemvalue="Application.RangeChar" />
-        <item itemvalue="Application.MaxSubArray53" />
-        <item itemvalue="Application.DpRob" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615513568553</updated>
-      <workItem from="1615513569897" duration="62381000" />
+      <workItem from="1615513569897" duration="105239000" />
     </task>
     <servers />
   </component>
@@ -218,22 +218,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1615517614348" />
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1615910692787">
+    <state width="1492" height="191" key="GridCell.Tab.0.bottom" timestamp="1616394684788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615910692787" />
-    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1615910692787">
+    <state width="1492" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616394684788" />
+    <state width="1492" height="191" key="GridCell.Tab.0.center" timestamp="1616394684787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615910692787" />
-    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1615910692787">
+    <state width="1492" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616394684787" />
+    <state width="1492" height="191" key="GridCell.Tab.0.left" timestamp="1616394684787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615910692787" />
-    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1615910692787">
+    <state width="1492" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616394684787" />
+    <state width="1492" height="191" key="GridCell.Tab.0.right" timestamp="1616394684788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615910692787" />
+    <state width="1492" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616394684788" />
     <state x="248" y="34" key="SettingsEditor" timestamp="1615561271142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

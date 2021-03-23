@@ -33,11 +33,6 @@ import java.util.List;
 // 👍 75 👎 0
 public class CompressString0106 {
     //面试题[01-06]
-    public static void main(String[] args) {
-        String s = "aabcccccaa";
-        String ss = compressString(s);
-        System.out.println(ss);
-    }
     /*
     思路：申请一个list集合。双指针遍历字符串，i,j刚开始指向字符串首字符。list.add(S.charAt(i));
           count计数遍历过程中重复字符的个数。
