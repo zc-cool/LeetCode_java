@@ -17,7 +17,7 @@ package easy.string;
 //
 // Related Topics 字符串
 // 👍 333 👎 0
-public class AddString415 {
+public class NAddString415 {
 
     public String addStrings(String num1, String num2) {
 
