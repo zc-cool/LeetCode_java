@@ -8,24 +8,44 @@ import java.util.*;
 
 public class Test{
     public static void main(String[] args){
-        String s = "bcdea";
+        String s = "aaaabbbbcccc";
+        System.out.println(sortString(s));
 
-        int i = maxLengthBetweenEqualCharacters2(s);
-        System.out.println(i);
     }
 
-    public static int maxLengthBetweenEqualCharacters2(String s) {
-        int ans = -1;  //起始值为-1
-        /*
-        核心思路：
-            在字符串中找到a到z的indexOf，和lastIndexOf。计算两者之差。比较出最大值
-            如果indexOf和lastIndexOf不存在，返回一个负数。？？？？
-         */
-        int[] ch = new int[26];
-        for (int i = 0; i < 26; i++) {
-            ans = Math.max(ans, s.lastIndexOf(i + 'a') - s.indexOf(i + 'a') - 1);
+    public static String sortString(String s) {
+        int[] array = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            int index = s.charAt(i) - 'a';
+            array[index]++;
         }
-        return ans;
+        int max = 0;
+        for(int j : array){
+            max = Math.max(max,j);
+        }
+
+        StringBuilder sb = new StringBuilder();
+        while(max > 0){
+            for(int k=0; k<array.length; k++){
+                if(array[k] != 0){
+                    char c = (char)(k + 'a');
+                    sb.append(c);
+                    array[k]--;
+                }
+            }
+            max--;
+            if(max != 0){
+                for(int n=array.length-1; n>=0; n--){
+                    if(array[n] != 0){
+                        char ch = (char)(n + 'a');
+                        sb.append(ch);
+                        array[n]--;
+                    }
+                }
+                max--;
+            }
+        }
+        return sb.toString();
     }
 
 }
