@@ -36,7 +36,7 @@ package easy.array;
 //
 // Related Topics 贪心算法 数组
 // 👍 339 👎 0
-public class NCanPlaceFlowers605 {
+public class N种花问题605 {
     /*
     思路：贪心算法。连续三个0，才能种下一颗花。
     注意：数组首元素和末尾元素的情况。首元素左边没有元素了，末尾元素右边没有元素了。

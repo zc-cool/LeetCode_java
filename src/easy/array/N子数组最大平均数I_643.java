@@ -25,7 +25,7 @@ package easy.array;
 //
 // Related Topics 数组
 // 👍 179 👎 0
-public class NFindMaxAverage643 {
+public class N子数组最大平均数I_643 {
     /*
     思路：滑动窗口
     以下代码，可以作为滑动窗口模板使用：
