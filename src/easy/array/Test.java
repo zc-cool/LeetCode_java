@@ -4,13 +4,10 @@
  */
 package easy.array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        int[] nums = {0,0,0,1};
+        int[] arr = {10,11,12};
     }
 
 }
