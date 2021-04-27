@@ -171,6 +171,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1441]用栈操作构建数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1441]用栈操作构建数组.java" />
+              <option name="questionId" value="1552" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1446]连续字符.java">
           <value>
             <LeetcodeEditor>
@@ -264,6 +272,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1592]重新排列单词间的空格.java" />
               <option name="questionId" value="1714" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1598]文件夹操作日志搜集器.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1598]文件夹操作日志搜集器.java" />
+              <option name="questionId" value="1720" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -504,6 +520,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[228]汇总区间.java" />
               <option name="questionId" value="228" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[232]用栈实现队列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[232]用栈实现队列.java" />
+              <option name="questionId" value="232" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -907,6 +931,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[933]最近的请求次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[933]最近的请求次数.java" />
+              <option name="questionId" value="969" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java">
           <value>
             <LeetcodeEditor>
@@ -928,6 +960,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 29]顺时针打印矩阵.java" />
               <option name="questionId" value="100293" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 30]包含min函数的栈.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 30]包含min函数的栈.java" />
+              <option name="questionId" value="100302" />
             </LeetcodeEditor>
           </value>
         </entry>
