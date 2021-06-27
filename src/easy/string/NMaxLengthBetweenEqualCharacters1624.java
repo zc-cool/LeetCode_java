@@ -77,7 +77,6 @@ public class NMaxLengthBetweenEqualCharacters1624 {
             如果indexOf和lastIndexOf不存在，返回一个负数。之差为0
             如果只有一个元素，则indexOf和lastIndexOf返回值是一样的，结果还是0.
          */
-        int[] ch = new int[26];
         for (int i = 0; i < 26; i++) {
             ans = Math.max(ans, s.lastIndexOf(i + 'a') - s.indexOf(i + 'a') - 1);
         }

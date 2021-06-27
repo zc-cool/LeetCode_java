@@ -58,7 +58,7 @@ package easy.link;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-public class 反转链表206 {
+public class N反转链表206 {
     //方法1：相当于将原链表的每个节点都复制一遍，进行头插法 （有待改进）
     //必须使用ListNode ans = new ListNode(head.val);
     //而不能使用ListNode ans = head;

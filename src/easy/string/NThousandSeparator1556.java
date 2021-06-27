@@ -93,4 +93,20 @@ public class NThousandSeparator1556 {
         }
         return sb.reverse().toString();
     }
+
+    //方法三：使用StringBuilder的insert方法
+    public String thousandSeparator3(int n) {
+        String str = String.valueOf(n);
+        if(str.length() <= 3) return str;
+
+        StringBuilder sb = new StringBuilder(str);//String转为StringBuilder，为了使用insert方法
+        int index = sb.length();  //index是字符串的长度，
+        while(index > 0){    //当index>0是循环开始，index = index - 3
+            index -= 3;      //判断index是否到达字符串首元素，如果到达则不添加'.'
+            if(index > 0){
+                sb.insert(index,'.');  //否则在index位置插入'.'
+            }
+        }
+        return sb.toString();
+    }
 }

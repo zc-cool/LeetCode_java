@@ -74,7 +74,7 @@ package easy.link;
  *     }
  * }
  */
-public class 相交链表160 {
+public class N相交链表160 {
     //方法1：暴力双循环
     //解答成功:
     //	执行耗时:816 ms,击败了5.01% 的Java用户

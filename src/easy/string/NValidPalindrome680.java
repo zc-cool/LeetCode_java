@@ -80,7 +80,7 @@ public class NValidPalindrome680 {
     //2.或者判断s[i]到s[j-1]范围内是否回文，如果是，删除s[j]即可，
     public boolean validPalindrome2(String s) {
         char[] ch=s.toCharArray();
-        for(int i=0,j=ch.length-1;i<j;i++,j--){
+        for(int i=0,j=ch.length-1; i<j; i++,j--){
             if(ch[i]!=ch[j]){
                 return isPalindrome(ch,i+1,j)||isPalindrome(ch,i,j-1);
             }

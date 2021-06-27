@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed13aa78-1960-4395-af13-37de540ed895" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/easy/stack/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/stack/ValidParentheses20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/stack/ValidParentheses20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/stack/下一个更大元素496.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/stack/下一个更大元素496.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/link/反转链表206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/link/N反转链表206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/link/相交链表160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/link/N相交链表160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/string/NMaxLengthBetweenEqualCharacters1624.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/string/NMaxLengthBetweenEqualCharacters1624.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/string/NModifyString1576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/string/NN_ModifyString1576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/string/NThousandSeparator1556.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/string/NThousandSeparator1556.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/string/NValidPalindrome680.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/string/NValidPalindrome680.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project1" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
@@ -140,7 +148,12 @@
       <updated>1615513568553</updated>
       <workItem from="1615513569897" duration="257501000" />
       <workItem from="1617360813980" duration="79482000" />
-      <workItem from="1618189515478" duration="168641000" />
+      <workItem from="1618189515478" duration="175747000" />
+      <workItem from="1620993560023" duration="3092000" />
+      <workItem from="1622179049354" duration="5440000" />
+      <workItem from="1623941131734" duration="5131000" />
+      <workItem from="1624070372696" duration="178000" />
+      <workItem from="1624185752942" duration="29633000" />
     </task>
     <servers />
   </component>
@@ -171,14 +184,31 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619589004800">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="700" y="101" key="#Deployment" timestamp="1623923188545">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="700" y="101" key="#Deployment/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1623923188545" />
+    <state x="564" y="13" key="#Dockerfile" timestamp="1623919135816">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="564" y="13" key="#Dockerfile/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1623919135816" />
+    <state x="248" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624185781455">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1619589004800" />
+    <state x="248" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1624185781455" />
+    <state x="976" y="265" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623980601091">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="976" y="265" key="#com.intellij.fileTypes.FileTypeChooser/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1623980601091" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619488120073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619488120073" />
+    <state x="365" y="6" key="CommitChangelistDialog2" timestamp="1621241088945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621241088945" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1617932730430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -223,38 +253,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1617809239565" />
-    <state x="248" y="34" width="1268" height="715" key="SettingsEditor" timestamp="1618392029238">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="495" y="102" width="1268" height="715" key="SettingsEditor" timestamp="1624198462209">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="248" y="34" width="1268" height="715" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618392029238" />
+    <state x="495" y="102" key="SettingsEditor/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1624198462209" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1615897269812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1615897269812" />
-    <state x="741" y="113" key="VCS.ChangeListViewerDialog" timestamp="1615517623741">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1057" y="340" key="WebDeployment.AddServerDialog.v.1" timestamp="1623922912609">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="741" y="113" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1615517623741" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1618189531410">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1057" y="340" key="WebDeployment.AddServerDialog.v.1/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1623922912609" />
+    <state x="499" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1624070373724">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1618189531410" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1622438132697" />
+    <state x="499" y="263" key="com.intellij.ide.util.TipDialog/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1624070373724" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617931988463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1617931988463" />
-    <state x="178" y="22" key="new project wizard" timestamp="1617024810268">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="483" y="46" key="new project wizard" timestamp="1624070431992">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617024810268" />
+    <state x="483" y="46" key="new project wizard/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1624070431992" />
+    <state x="710" y="354" key="publish.login" timestamp="1623941156596">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="710" y="354" key="publish.login/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1623941156596" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1618910440293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1618910440293" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1618910459981">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="479" y="162" width="747" height="757" key="search.everywhere.popup" timestamp="1624202869634">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1618910459981" />
+    <state x="479" y="162" width="747" height="757" key="search.everywhere.popup/350.1440.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1624202869634" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_java$Test__2_.ic" NAME="Test (2) Coverage Results" MODIFIED="1618538979356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

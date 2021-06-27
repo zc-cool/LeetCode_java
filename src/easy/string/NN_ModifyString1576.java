@@ -53,7 +53,7 @@ package easy.string;
 //
 // Related Topics 字符串
 // 👍 28 👎 0
-public class NModifyString1576 {
+public class NN_ModifyString1576 {
     public String modifyString(String s) {
         char[] chars = s.toCharArray();
 
