@@ -103,4 +103,35 @@ public class N能否连接形成数组1640 {
         }
         return true;
     }
+
+    //和方法1思想一样，实现代码略有不同
+    public boolean canFormArray2(int[] arr, int[][] pieces) {
+        for (int i = 0; i < arr.length; ) {
+            int element = arr[i];
+            int index = i; //下标记录i指针是否发生移动
+
+            for (int j = 0; j < pieces.length; j++) {
+                //一维数组首元素
+                int tem = pieces[j][0];
+                //当一维数组首元素和arr当前下标元素相同，进入判断
+                if(element == tem){
+                    //判断pieces[j]一维数组的元素和arr[i]元素是否一样
+                    for (int k = 0; k < pieces[j].length; k++) {
+                        if(arr[i] != pieces[j][k]){
+                            return false;
+                        }
+                        i++;
+                    }
+                    //代码执行到这，说明目前出现符合的pieces的一维数组
+                    break; //跳出二维数组的循环 for (int j = 0; j < pieces.length; j++) { }
+                }
+            }
+            //代码执行到这，说明二维数组循环结束，如果i没有发生移动
+            //说明遍历完pieces二维数组，也没有找到符合一维数组首字母=arr[i]
+            if(i == index){
+                return false;
+            }
+        }
+        return true;
+    }
 }

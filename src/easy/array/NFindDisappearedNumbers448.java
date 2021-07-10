@@ -58,7 +58,7 @@ public class NFindDisappearedNumbers448 {
             int x = (num - 1) % n;  //对n取模还原它本来的值。不能使用-n。因为该位可能还并未加上n
             nums[x] += n;
         }
-        List<Integer> ret = new ArrayList<Integer>();
+        List<Integer> ret = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             if (nums[i] <= n) {
                 ret.add(i + 1);

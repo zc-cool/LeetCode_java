@@ -60,4 +60,35 @@ public class N图片平滑器661 {
         }
         return ans;
     }
+
+    //使用方向数组。
+    public int[][] imageSmoother2(int[][] img) {
+        //需要和元素周边的进行相加，使用方向数组
+        //下面二维数组代表上下左右，左斜上下，右斜上下8个方向。
+        int[][] dir = {{1,0},{-1,0},{0,-1},{0,1},{-1,1},{-1,-1},{1,-1},{1,1}};
+
+        int row = img.length;
+        int column = img[0].length;
+        int[][] ans = new int[row][column];
+
+        //遍历img二维数组
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++){
+                int sum = img[i][j];  //sum记录满足条件元素的和，包括自身(起始和为自身值)
+                int count = 1;  //count记录共有多少个元素满足条件，包括自身(起始计数1)
+                //遍历方向数组
+                for (int k = 0; k < 8; k++){
+                    int x = i + dir[k][0];
+                    int y = j + dir[k][1];
+                    //边界条件判断，排除不满足条件的情况
+                    if(x < 0 || y < 0 || x == row || y== column) continue;
+                    //代码执行到这，说明是满足条件的x和y坐标
+                    sum = sum + img[x][y];
+                    count++;
+                }
+                ans[i][j] = sum / count;
+            }
+        }
+        return ans;
+    }
 }
